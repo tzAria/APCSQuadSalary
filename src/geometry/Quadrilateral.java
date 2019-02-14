@@ -5,8 +5,8 @@ import java.util.*;
 public class Quadrilateral{
 	String name;
 	double a,b,c,d,A,B,C,D;
-	ArrayList def = new ArrayList<String>();
-	ArrayList prop = new ArrayList<String>();
+	ArrayList<String> def = new ArrayList<String>();
+	ArrayList<String> prop = new ArrayList<String>();
 
 	public Quadrilateral(String name, double a,double b,double c,double d,double A,double B,double C,double D){
 		this.name = name;
@@ -22,12 +22,12 @@ public class Quadrilateral{
 		prop.add("The sum of the angle measures is 360 degrees. ");
 }
 
-		public String toStringDef(){
+		public String Definition(){
 			String definition = "The definiton of " + name + " is: " + def.toString();
 			return definition;
 		}
 
-		public String toStringProp(){
+		public String properties(){
 			String properties = "The properties of " + name + " are: " + prop.toString();
 			return properties;
 		}
