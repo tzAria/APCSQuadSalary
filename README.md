@@ -1,2 +1,2 @@
 # APCSQuad
-APCS Programming project involving quadrilateral hierarchy.
+APCS Programming projects involving quadrilateral hierarchy and school staff salaries.
