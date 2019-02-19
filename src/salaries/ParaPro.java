@@ -8,9 +8,9 @@ public class ParaPro extends Secretarial {
 	}
 	public double getPay() {
 	    if (yearsWorked <= 10) {
-	      return (10.00 + (.25 * yearsWorked)) * 40;
+	      return 2 * ((10.00 + (.25 * yearsWorked)) * 40);
 	    } else {
-	      return 12.50 * 40;
+	      return 2*(12.50 * 40);
 	    }
 	  }
 }

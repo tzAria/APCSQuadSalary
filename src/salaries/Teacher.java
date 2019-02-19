@@ -16,7 +16,7 @@ public class Teacher {
 	    if (step > 8) {
 	      step = 8;
 	    }
-	    double uncut = this.paySteps[step] / 52.0;
+	    double uncut = this.paySteps[step] / 26.0;
 	    return ((int)(100 * uncut)) / 100.0;
 	 }
 	public String getName() {

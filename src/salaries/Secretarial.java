@@ -10,9 +10,9 @@ public class Secretarial {
 	}
 	public double getPay() {
 	    if (yearsWorked <= 10) {
-	      return (15 + (.50 * yearsWorked)) * 40;
+	      return 2 * ((15 + (.50 * yearsWorked)) * 40);
 	    } else {
-	      return 25.00 * 40;
+	      return 2* (20.00 * 40);
 	    }
 	}
 	public String getName() {
