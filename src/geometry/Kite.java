@@ -18,16 +18,16 @@ public class Kite extends Quadrilateral {
 		this.B = super.B;
 		this.C = super.C;
 		this.D = super.D;
-		// TODO Auto-generated constructor stub
+		def.add("with two sets of consecutive sides equal.");
+		prop.add(" You can use Kite symmetry theorem.");
+		prop.add(" You can use Kite diagonal theorem.");
 	}
 	public String Definition() {
-		  String definition = "The definition of your "+ name + " is " + super.def + "with two sets of consecutive sides equal.";
+		  String definition = "The definition of your "+ name + " is " + def;
 		  return definition;
 	}
 	public String properties() {
-		  String prop1 = " You can use Kite symmetry theorem.";
-		  String prop2 = " You can use Kite diagonal theorem.";
-		  String properties = "The properties of your " + name + " are " + super.prop + prop1 + prop2;
+		  String properties = "The properties of your " + name + " are " + prop;
 		  return properties;
 	}
 }

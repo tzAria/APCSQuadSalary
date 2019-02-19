@@ -22,7 +22,7 @@ public class Main {
 		  name = console.nextLine();
 		  System.out.println();
 		  System.out.println("You entered " + name);
-		  System.out.println("Please answer the following questions regarding your quadrilater's properties");
+		  System.out.println("Please answer the following questions regarding your quadrilateral's properties");
 		  System.out.println("Distance AB is?");
 		  sideA = console.nextDouble();
 		  System.out.println("Distance BC is?");
